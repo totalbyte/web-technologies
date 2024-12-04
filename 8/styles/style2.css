@@ -152,21 +152,6 @@ footer {
     font-size: 26px;
 }
 
-.burger-menu-button {
-    display: none;
-}
-
-#burger-menu {
-    position: fixed;
-    appearance: none;
-    top: 25px;
-    right: 63px;
-    width: 69px;
-    height: 69px;
-    cursor: pointer;
-    border-radius: 10px;
-}
-
 @media all and (max-width: 768px) {
     header {
         position: sticky;
