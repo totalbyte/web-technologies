@@ -1,0 +1,51 @@
+/* Контейнер сітки */
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr 2fr; /* Дві секції: перша висока, друга менша */
+    grid-template-columns: 1fr 1fr 1fr; /* Три колонки для нижніх блоків */
+    gap: 25px; /* Відступи між блоками */
+    height: 100vh; /* Висота контейнера */
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+/* Верхній блок */
+.header {
+    grid-column: 1 / 4; /* Займає всі три колонки */
+    background-color: green;
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 3px solid black;
+}
+
+/* Нижні блоки */
+.block {
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 3px solid black;
+}
+
+.block-center {
+    background-color: lightgreen;
+}
+
+.block-left {
+    grid-column: 1; /* Ліва колонка */
+}
+
+.block-center {
+    grid-column: 2; /* Центральна колонка */
+}
+
+.block-right {
+    grid-column: 3; /* Права колонка */
+}

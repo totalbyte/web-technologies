@@ -1,0 +1,105 @@
+.main {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.gradient1 {
+    background: linear-gradient(230deg, orange, blue, yellow, green);
+}
+
+.gradient2 {
+    background: linear-gradient(45deg, green 15%, transparent 25%, transparent 75%, orange 75%, blue 100%),
+    linear-gradient(45deg, yellow 15%, transparent 25%, transparent 75%, purple 75%, orange 100%);
+    background-size: 100px 100px;
+}
+
+.gradient3 {
+    background: repeating-linear-gradient(to right, green 0, white 50px, transparent 50px, transparent 100px),
+    repeating-linear-gradient(to right, transparent 0, blue 50px, yellow 100px);
+}
+
+.gradient4 {
+    background: linear-gradient(140deg, transparent 65%, yellow 65%, yellow 100%), /*Жовтий трикутничок*/
+    linear-gradient(to right top, green 25%, transparent 25%, transparent 100%), /*Зелений трикутничок*/
+    linear-gradient(to top, white 0%, transparent 100%), /*Трошки білого*/
+    linear-gradient(to right, orange 0%, blue 100%); /*Градієнт*/
+}
+
+/*Multiple repeating linear gradient*/
+.gradient5 {
+    background: repeating-linear-gradient(
+            190deg,
+            rgb(255 0 0 / 50%) 40px,
+            rgb(255 153 0 / 50%) 80px,
+            rgb(255 255 0 / 50%) 120px,
+            rgb(0 255 0 / 50%) 160px,
+            rgb(0 0 255 / 50%) 200px,
+            rgb(75 0 130 / 50%) 240px,
+            rgb(238 130 238 / 50%) 280px,
+            rgb(255 0 0 / 50%) 300px
+    ),
+    repeating-linear-gradient(
+            -190deg,
+            rgb(255 0 0 / 50%) 30px,
+            rgb(255 153 0 / 50%) 60px,
+            rgb(255 255 0 / 50%) 90px,
+            rgb(0 255 0 / 50%) 120px,
+            rgb(0 0 255 / 50%) 150px,
+            rgb(75 0 130 / 50%) 180px,
+            rgb(238 130 238 / 50%) 210px,
+            rgb(255 0 0 / 50%) 230px
+    ),
+    repeating-linear-gradient(45deg, purple 0, red 50px,yellow 100px, green 150px, blue 200px, purple 250px);
+    );
+}
+
+.content {
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 0.9rem;
+}

@@ -1,0 +1,18 @@
+/* Стиль для Main */
+main {
+    column-count: 3;
+    column-gap: 35px;
+    column-rule: 5px dashed red;
+}
+
+p {
+    text-align: justify;
+}
+
+main img {
+    width: 200px;
+    float: right;
+    margin: 10px 0 10px 10px;
+}
+
+

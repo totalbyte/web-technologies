@@ -1,0 +1,52 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Стиль обгортки */
+.wrapper {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Стиль Header */
+header {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.menu ul li a {
+    background-color: #f46b42;
+    color: #6a00c1;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
