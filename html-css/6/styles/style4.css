@@ -1,0 +1,52 @@
+.position {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.image {
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+    display: block; /*прибирає відступ знизу*/
+}
+
+.block1, .block2, .block3, .block4, .block5, .block6 {
+    width: 250px;
+    height: 300px;
+    border: green solid 1px;
+    box-sizing: border-box;
+    margin: 50px;
+}
+
+.block1 {
+    box-shadow: -15px -15px 5px green;
+}
+
+.block2 {
+    box-shadow: 0 0 5px 15px green;
+}
+
+.block3 {
+    box-shadow: 5px 5px 15px green;
+}
+
+.block4 {
+    box-shadow: 0 0 15px 5px green;
+}
+
+.block5 {
+    box-shadow: 5px 5px 5px red,/* Red shadow on bottom-right */
+    -3px -3px 5px green,/* Green shadow on top-left */
+    5px -5px 5px blue,/* Blue shadow on top-right */
+    -5px 5px 5px yellow;/* Yellow shadow on bottom-left */
+
+}
+
+.block6 {
+    box-shadow: 0 -10px 5px yellow,
+    0 10px 5px blue;
+
+}

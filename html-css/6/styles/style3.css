@@ -1,0 +1,47 @@
+/* Стиль для блоків */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: justify;
+}
+
+.background1 {
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    color: white;
+
+    background-color: #5e1212;
+    border-radius: 80px;
+}
+
+.background1 h2 {
+    text-align: center;
+}
+
+.background2 {
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    color: white;
+    background-color: #975959;
+    border-radius: 80px;
+}
+
+.background2 h2 {
+    text-align: center;
+}
+
+.position {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.background3 {
+    margin: 20px 20px;
+    padding: 20px 20px;
+    color: white;
+    background-color: #ac3131;
+    border-radius: 80px;
+}
+
+
