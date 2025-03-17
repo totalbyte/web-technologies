@@ -28,15 +28,13 @@ function compareObjects(obj1, obj2) {
             return false;
         }
     }
-
-    return true;  // Якщо всі властивості співпадають
+    return true; // якщо всі збігаються
 }
 
-// Приклад використання:
-const obj1 = { name: "Bogdan", age: 20 };
-const obj2 = {  name: "Vlad", age: 19 };
-const obj3 = { name: "Bogdan", age: 20 };
-const obj4 = { name: "Bogdan", age: 60 };
+const obj1 = {name: "Bogdan", age: 20};
+const obj2 = {name: "Vlad", age: 19};
+const obj3 = {name: "Bogdan", age: 20};
+const obj4 = {name: "Bogdan", age: 60};
 
 console.log(compareObjects(obj1, obj2));
 console.log(compareObjects(obj1, obj3));
